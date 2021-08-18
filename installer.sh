@@ -25,7 +25,7 @@ BINARY_DOCKER=/var/snap/docker/common/var-lib-docker
 
 DOCKER_REPO=homeassistant
 
-SERVICE_DOCKER="docker.service"
+SERVICE_DOCKER="snap.docker.dockerd.service"
 SERVICE_NM="NetworkManager.service"
 
 FILE_DOCKER_CONF="/var/snap/docker/current/config/daemon.json"
